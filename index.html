@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="pic1.png" class="logo" alt="logo">
+  <nav>
+    <a href="/main/">Main</a>
+    <a href="/bio/">Bio</a>
+    <a href="/info/">Info</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="overlay">
+    <h1>Добро пожаловать</h1>
+    <p>Крутой статический сайт</p>
+    <a href="#form" class="btn">Подать заявку</a>
+  </div>
+</section>
+
+<section class="content">
+  <h2>О нас</h2>
+  <p>Тут любой текст. Секция для прокрутки.</p>
+</section>
+
+<section class="content">
+  <h2>Еще информация</h2>
+  <p>Добавь сколько угодно блоков.</p>
+</section>
+
+<section id="form" class="form-section">
+  <h2>Заявка</h2>
+
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Имя" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Сообщение"></textarea>
+    <button type="submit">Отправить</button>
+  </form>
+
+  <p id="status"></p>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
