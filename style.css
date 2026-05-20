@@ -167,7 +167,7 @@ body {
     padding: 20px 0 30px 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .block2 {
         display: block;
         flex-direction: column;
