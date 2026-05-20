@@ -1,53 +1,95 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>My Site</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper/swiper.css">
 </head>
 <body>
 
-<header class="header">
-  <img src="pic1.png" class="logo" alt="logo">
-  <nav>
-    <a href="/main/">Main</a>
-    <a href="/bio/">Bio</a>
-    <a href="/info/">Info</a>
-  </nav>
-</header>
+   <div id="hat">
+    <a href="#" class="logo"></a><!-- <img src="logo.png" class="logo" alt="logo"> -->
+    <a href="#" class="menu">ГЛАВНАЯ</a>
+    <a href="#" class="menu">О КОМПАНИИ</a>
+    <a href="#" class="menu">ОСТАВИТЬ ЗАЯВКУ</a>
+   </div>
 
-<section class="hero">
-  <div class="overlay">
-    <h1>Добро пожаловать</h1>
-    <p>Крутой статический сайт</p>
-    <a href="#form" class="btn">Подать заявку</a>
-  </div>
-</section>
+   <div id="helloScreen">
+       <img src="img/tech.png" id="mainPic" alt="Syneratech">
+       <div class="helloScreenTextDiv">
+            <h1 id="helloScreenText">ТехноРесурс Групп</h1>
+            <h2 id="helloScreenText2">интеграция глобальных поставок, инженерной экспертизы и полного сопровождения проектов от заявки до ввода в эксплуатацию</h2>
+       <!-- </div>
+       <div class="helloScreenTextDiv" id="helloScreenTextDiv2">
+       </div> -->
+   </div>
 
-<section class="content">
-  <h2>О нас</h2>
-  <p>Тут любой текст. Секция для прокрутки.</p>
-</section>
 
-<section class="content">
-  <h2>Еще информация</h2>
-  <p>Добавь сколько угодно блоков.</p>
-</section>
+   <!-- <div class="wrapper"> -->
+    <div class="block2">
 
-<section id="form" class="form-section">
-  <h2>Заявка</h2>
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <img src="img/a1.png">
+                    <h2 class="textInSwiper">Прямые поставки от производителей</h2>
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="img/a2.png">
+                    <h2 class="textInSwiper">some text2</h2>
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="img/a3.png">
+                    <h2 class="textInSwiper">some text3</h2>
+                </div>
+                
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+            
+        </div>
+        <div class="block2MainText">
+            <h1 class="labelBlock2">ТехноРесурс Групп</h1>
+        </div>
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <img src="img/a4.png">
+                    <h2 class="textInSwiper">some text</h2>
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="img/a5.png">
+                    <h2 class="textInSwiper">some text2</h2>
+                </div>
+                
+                <div class="swiper-slide">
+                    <img src="img/a6.png">
+                    <h2 class="textInSwiper">some text3</h2>
+                </div>
+                
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+            
+        </div>
+    </div>
+    <!-- </div> -->
 
-  <form id="contact-form">
-    <input type="text" name="name" placeholder="Имя" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Сообщение"></textarea>
-    <button type="submit">Отправить</button>
-  </form>
+   <!-- <div>
+    <img href="img/logo2.png">
+   </div> -->
 
-  <p id="status"></p>
-</section>
-
-<script src="app.js"></script>
+   <script src="swiper/swiper.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

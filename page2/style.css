@@ -1,0 +1,32 @@
+.swiper {
+    margin-left: 0;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.block2 {
+    display: block;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.block2text {
+
+    flex: 1;
+    /* margin-right: auto; */
+}
+
+body {
+    margin: 0; /*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+}

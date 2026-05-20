@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../swiper/swiper.css">
+</head>
+
+<body>
+<div class="block2">
+
+    <div class="swiper">
+        
+        <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img src="../img/a1.png">
+            </div>
+            
+            <div class="swiper-slide">
+                <img src="../img/a2.png">
+            </div>
+            
+            <div class="swiper-slide">
+                <img src="../img/a3.png">
+            </div>
+            
+        </div>
+        
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        
+    </div>
+
+    <div class="block2text">
+        <h1 class="label">ТехноРесурс Групп</h1>
+    </div>
+</div>
+
+<script src="../swiper/swiper.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+    loop: true,
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    grabCursor: true,
+});
+</script>
+
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <ling rel="stylesheet" href="../swiper/swiper.css"></ling>
+    <script src="../swiper/swiper.js"></script>
+</head>
+<body>
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="../img/a1.png">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="../img/a2.png">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="../img/a3.png">
+            </div>
+
+        </div>
+
+        <!-- Кнопки -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <!-- Точки -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+   <!-- <div>
+    <img href="img/logo2.png">
+   </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
